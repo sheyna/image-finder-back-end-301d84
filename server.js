@@ -36,7 +36,7 @@ app.get('/photos', async (req, res, next) => {
 });
 
 app.get('*', (req, res) => {
-  res.status(404).send('These are not the droids you are looking for...');
+  res.status(404).send('These are really not the droids you are looking for...');
 });
 
 // CLASSES
